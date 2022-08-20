@@ -1,49 +1,49 @@
 // // // // // // // // CALCULATOR
 
-// let sum = (a, b) => {
-//   return a + b;
-// };
+let sum = (a, b) => {
+  return a + b;
+};
 
-// let difference = (a, b) => {
-//   return a - b;
-// };
+let difference = (a, b) => {
+  return a - b;
+};
 
-// let product = (a, b) => {
-//   return a * b;
-// };
+let product = (a, b) => {
+  return a * b;
+};
 
-// let division = (a, b) => {
-//   return a / b;
-// };
+let division = (a, b) => {
+  return a / b;
+};
 
-// let modulo = (a, b) => {
-//   return a % b;
-// };
+let modulo = (a, b) => {
+  return a % b;
+};
 
-// let raiseTo = (a, b) => {
-//   return a ** b;
-// };
+let raiseTo = (a, b) => {
+  return a ** b;
+};
 
-// const perform = [sum, difference, product, division, modulo, raiseTo];
-// function performAllOperation(a, b) {
-//   for (let i = 0; i < perform.length; i++) {
-//     console.log("The", perform[i], "of", a, "and", b, ":", perform[i](a, b));
-//   }
-// }
+const perform = [sum, difference, product, division, modulo, raiseTo];
+function performAllOperation(a, b) {
+  for (let i = 0; i < perform.length; i++) {
+    console.log("The", perform[i], "of", a, "and", b, ":", perform[i](a, b));
+  }
+}
 
-// performAllOperation(2472392, 3327678);
+performAllOperation(2472392, 3327678);
 
 // // // // // //  ALL EVEN FROM 1 TO 100
 
-// let printEven = function () {
-//   for (let i = 1; i <= 100; i++) {
-//     if (i % 2 == 0) {
-//       console.log(i);
-//     }
-//   }
-// };
+let printEven = function () {
+  for (let i = 1; i <= 100; i++) {
+    if (i % 2 == 0) {
+      console.log(i);
+    }
+  }
+};
 
-// printEven();
+printEven();
 
 // // // // // // // PRIME OR NOT
 
