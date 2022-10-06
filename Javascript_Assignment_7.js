@@ -120,9 +120,9 @@ const f4 = (str) => {
   );
 };
 
-// IMPORTANT Dictionary
+// IMPORTANT Dictionary (map)
 const f5 = (str) => {
-  let counter = {};
+  let counter = new Map();
   for (i of str) {
     if (isNaN(counter[i])) {
       counter[i] = 1;
