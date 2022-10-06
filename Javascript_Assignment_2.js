@@ -32,7 +32,7 @@ function triangle(a, b, c) {
   }
 }
 
-console.log(typeOfTriangle(2, 1, 3));
+console.log(typeOfTriangle(2, 2, 1));
 
 // // // // // // Student Grade
 
