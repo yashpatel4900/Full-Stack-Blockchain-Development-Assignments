@@ -39,7 +39,7 @@ console.log(typeOfTriangle(2, 2, 1));
 // const marks = 41;
 
 // switch (true) {
-//   case marks > 90 && marks < 100:
+//   case marks > 90 && marks < 101:
 //     console.log("S Grade");
 //     break;
 //   case marks > 80 && marks < 91:
